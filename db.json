@@ -1,0 +1,63 @@
+{
+  "seller": [
+    {
+      "id": "5784",
+      "name": "Akanksha Vaidya",
+      "email": "akanksha@gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "26bd",
+      "name": "Sahil",
+      "password": "sahil123",
+      "email": "sahil@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "description": "Hp laptop for student and professionals"
+    },
+    {
+      "id": "2",
+      "name": "samsung m 40",
+      "price": "90000",
+      "color": "blue",
+      "category": "mobile",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "description": "This is a samsung product"
+    },
+    {
+      "id": "3",
+      "name": "Levies Jeans",
+      "price": "5000",
+      "color": "blue",
+      "category": "Jeans",
+      "description": "Confirmtable jeans for men",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Noise Smart Watch",
+      "price": "2000",
+      "color": "Black",
+      "category": "Watch",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg"
+    },
+    {
+      "id": "5",
+      "name": "I phone 14",
+      "price": "100000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "An apple product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    }
+  ]
+}
