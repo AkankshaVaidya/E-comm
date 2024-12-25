@@ -39,7 +39,7 @@
     flex: 1;
     color: blueviolet;
     border: 1px solid blueviolet;
-    height: 35px;
+    height: 39px;
     border-right: 0px;
 }
 
@@ -48,4 +48,23 @@
     border: 1px solid blueviolet;
     height: 39px;
     border-left: 0px;
+}
+
+.search-result {
+    position: absolute;
+    display: list-item !important;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 300px;
+    z-index: 10;
+    top: 40px;
+}
+
+.search-result li {
+    border: 1px solid #ddd; 
+    padding: 5px;
+}
+.search-result a{
+    cursor: pointer;
+    color: blueviolet;
 }

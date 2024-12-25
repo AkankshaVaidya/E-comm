@@ -24,15 +24,6 @@
       "description": "Hp laptop for student and professionals"
     },
     {
-      "name": "i Phone 14",
-      "price": "100000",
-      "color": "black",
-      "category": "Mobile",
-      "Description": "This is an apple product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": "_mz7uD8"
-    },
-    {
       "name": "Noise Smart Watch",
       "price": "2000",
       "color": "black",
@@ -40,6 +31,24 @@
       "description": "Noise smart watch for man and women both",
       "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
       "id": "7GpboAg"
+    },
+    {
+      "name": "i Phone 15",
+      "price": "150000",
+      "color": "white",
+      "category": "mobile",
+      "description": "This is an iphone product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": "Z89fhbv"
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "2500",
+      "color": "blue",
+      "category": "jeans",
+      "description": "Confirmable jeans for man",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "id": "tzGMKgv"
     }
   ]
 }
