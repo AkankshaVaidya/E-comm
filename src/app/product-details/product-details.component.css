@@ -1,0 +1,31 @@
+.product-image{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.product-color{
+    border: 3px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.product-details{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1,h5,h6{
+    margin-bottom: 20px;
+}
+
+.quantity-grp{
+    margin-top: 20px;
+}
+.quantity-grp button{
+    padding: 10px;
+}
+.quantity-grp input{
+    width: 50px;
+    padding: 10px;
+}
