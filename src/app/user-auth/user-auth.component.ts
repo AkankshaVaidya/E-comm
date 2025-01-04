@@ -10,6 +10,7 @@ import { UserService } from '../services/user.service';
 export class UserAuthComponent implements OnInit {
 
   showLogin:boolean=true;
+  authError:string="";
 
   constructor(private user:UserService) { }
 
@@ -24,6 +25,13 @@ export class UserAuthComponent implements OnInit {
   login(data:login){
     console.warn(data);
     this.user.userLogin(data);
+
+    this.user.invalidUserAuth.subscribe((result)=>{
+      console.warn("apple",result);
+      if(result){
+        this.authError="please Enter valid email and password";
+      }
+    } )
     
   }
 

@@ -28,17 +28,23 @@
     <form #userLogin="ngForm" (ngSubmit)="login(userLogin.value)"
     class="common-form">
      
+    <p class="error-p">{{authError}}</p>
+
      <input type="text" 
      name="email" ngModel 
      placeholder="Enter user Email" 
-     class="form-input"/>
-
-     <input type="password" 
+     class="form-input"
+     #email="ngModel"
+     required email/>
+    <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please enter valid value</span></p>
+     
+    <input type="password" 
      name="password" ngModel 
      placeholder="Enter user Password" 
-     class="form-input"/>
+     class="form-input" required #password="ngModel" maxlength="20"/>
+     <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please enter valid value</span></p>
 
-     <button class="form-button">Login</button>
+     <button class="form-button" [disabled]="userLogin.invalid">Login</button>
 
      <p>Want to create Account? <a (click)="openSignUp()"> Click Here</a></p>
     </form>

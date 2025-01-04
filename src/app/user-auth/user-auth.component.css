@@ -13,3 +13,9 @@
    color: blueviolet;
    cursor: pointer;
 }
+
+.invalid-input{
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+}

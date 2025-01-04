@@ -94,5 +94,22 @@
       "password": "abc123",
       "id": 4
     }
+  ],
+  "cart": [
+    {
+      "id": 1
+    },
+    {
+      "name": "Truck",
+      "price": "500",
+      "color": "Red",
+      "category": "Toy",
+      "description": "A toy for 5 year old child",
+      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
+      "quantity": 1,
+      "userId": 4,
+      "productId": "8yERZpC",
+      "id": 2
+    }
   ]
 }
