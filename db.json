@@ -100,16 +100,46 @@
       "id": 1
     },
     {
-      "name": "Truck",
-      "price": "500",
-      "color": "Red",
-      "category": "Toy",
-      "description": "A toy for 5 year old child",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
+      "id": 3
+    },
+    {
+      "id": 6
+    },
+    {
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "description": "Hp laptop for student and professionals",
+      "quantity": 1,
+      "productId": "1",
+      "userId": null,
+      "id": 12
+    },
+    {
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "description": "Hp laptop for student and professionals",
       "quantity": 1,
       "userId": 4,
-      "productId": "8yERZpC",
-      "id": 2
+      "productId": "1",
+      "id": 13
+    },
+    {
+      "name": "Noise Smart Watch",
+      "price": "2000",
+      "color": "black",
+      "category": "Watch",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "quantity": 1,
+      "userId": 4,
+      "productId": "7GpboAg",
+      "id": 14
     }
   ]
 }
