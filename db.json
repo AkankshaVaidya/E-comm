@@ -153,5 +153,15 @@
       "productId": "PDcv0g1",
       "id": 15
     }
+  ],
+  "orders": [
+    {
+      "email": "jungkook@test.com",
+      "address": "baner",
+      "contact": "78895545478",
+      "totalPrice": 55100,
+      "userId": 4,
+      "id": 1
+    }
   ]
 }
