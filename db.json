@@ -118,40 +118,16 @@
       "id": 12
     },
     {
-      "name": "HP Laptop",
-      "price": "50000",
-      "category": "Laptop",
-      "color": "black",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "description": "Hp laptop for student and professionals",
-      "quantity": 1,
+      "name": "Levies Jeans",
+      "price": "2500",
+      "color": "blue",
+      "category": "jeans",
+      "description": "Confirmable jeans for man",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "quantity": 2,
       "userId": 4,
-      "productId": "1",
+      "productId": "tzGMKgv",
       "id": 13
-    },
-    {
-      "name": "Noise Smart Watch",
-      "price": "2000",
-      "color": "black",
-      "category": "Watch",
-      "description": "Noise smart watch for man and women both",
-      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
-      "quantity": 1,
-      "userId": 4,
-      "productId": "7GpboAg",
-      "id": 14
-    },
-    {
-      "name": "Nike Shoes",
-      "price": "3000",
-      "color": "Black",
-      "category": "Shoes",
-      "description": "Best shoes for Running",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "quantity": 1,
-      "userId": 4,
-      "productId": "PDcv0g1",
-      "id": 15
     }
   ],
   "orders": [
@@ -170,6 +146,22 @@
       "totalPrice": 55100,
       "userId": 4,
       "id": 2
+    },
+    {
+      "email": "jungkook@test.com",
+      "address": "balewadi",
+      "contact": "4458754221",
+      "totalPrice": 55100,
+      "userId": 4,
+      "id": 3
+    },
+    {
+      "email": "jungkook@test.com",
+      "address": "seol",
+      "contact": "114879652",
+      "totalPrice": 5100,
+      "userId": 4,
+      "id": 4
     }
   ]
 }

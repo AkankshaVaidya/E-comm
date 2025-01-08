@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { order, product } from '../data-type';
+import { ProductService } from '../services/product.service';
 
 @Component({
   selector: 'app-my-orders',
@@ -6,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-orders.component.css']
 })
 export class MyOrdersComponent implements OnInit {
+  
+  oderData:order[]|undefined;
 
-  constructor() { }
+  constructor(private product:ProductService) { }
 
   ngOnInit(): void {
+   this.product.orderList().subscribe((result)=>{
+       this.oderData = result;
+   })
   }
 
 }
