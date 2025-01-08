@@ -2,19 +2,19 @@
     <h1>Cart Page</h1>
     <div class="row">
         <div class="col-sm-8 detaills">
-            <ul>
+            <ul *ngFor="let item of cartData">
                 <li>
-                    <img src="https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388"
+                    <img src="{{item.image}}"
                         alt="">
                 </li>
                 <li>
-                    <span>Product Name</span>
+                    <span>{{item.name}}</span>
                 </li>
                 <li>
-                    <span>Price : 100</span>
+                    <span>Price : {{item.price}}</span>
                 </li>
                 <li>
-                    <span>Quantity : 5</span>
+                    <span>Quantity : {{item.quantity}}</span>
                 </li>
                 <li>
                     <button class="form-button">Remove to Cart</button>
@@ -25,19 +25,19 @@
             <h3>Summary</h3>
             <ul>
                 <li>
-                    <Span>Amount</Span><span>300</span>
+                    <Span>Amount</Span><span>{{priceSummary.price}}</span>
                 </li>
                 <li>
-                    <Span>Tax</Span><span>30</span>
+                    <Span>Tax</Span><span>{{priceSummary.tax}}</span>
                 </li>
                 <li>
-                    <Span>Delivery Charge</Span><span>25</span>
+                    <Span>Delivery Charge</Span><span>{{priceSummary.delivery}}</span>
                 </li>
                 <li>
-                    <Span>Discount</Span><span>50</span>
+                    <Span>Discount</Span><span>{{priceSummary.discount}}</span>
                 </li>
                 <li>
-                    <Span><h4>Total</h4></Span><span><h4>300</h4></span>
+                    <Span><h4>Total</h4></Span><span><h4>{{priceSummary.total}}</h4></span>
                 </li>
             </ul>
         </div>
