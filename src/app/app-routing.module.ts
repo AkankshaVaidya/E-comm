@@ -12,6 +12,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { UserAuthComponent } from './user-auth/user-auth.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { MyOrdersComponent } from './my-orders/my-orders.component';
 
 const routes: Routes = [
   {
@@ -25,38 +26,42 @@ const routes: Routes = [
   {
     path: 'seller-home',
     component: SellerHomeComponent,
-    canActivate:[AuthGuard]
+    canActivate: [AuthGuard]
   },
   {
-    component:SellerAddProductComponent,
-    path:'seller-add-product',
-    canActivate:[AuthGuard]
+    component: SellerAddProductComponent,
+    path: 'seller-add-product',
+    canActivate: [AuthGuard]
   },
   {
-    component:SellerUpdateProductComponent,
-    path:'seller-update-product/:id',
-    canActivate:[AuthGuard]
+    component: SellerUpdateProductComponent,
+    path: 'seller-update-product/:id',
+    canActivate: [AuthGuard]
   },
   {
-    component:SearchComponent,
-    path:'search/:query'
+    component: SearchComponent,
+    path: 'search/:query'
   },
   {
-    component:ProductDetailsComponent,
-    path:'details/:productId'
+    component: ProductDetailsComponent,
+    path: 'details/:productId'
   },
   {
-  component:UserAuthComponent,
-  path:'user-auth'
+    component: UserAuthComponent,
+    path: 'user-auth'
   },
   {
-    component:CartPageComponent,
-    path:'cart-page'
-    },
-    {
-      component:CheckoutComponent,
-      path:'checkout'
-      },
+    component: CartPageComponent,
+    path: 'cart-page'
+  },
+  {
+    component: CheckoutComponent,
+    path: 'checkout'
+  },
+  {
+    component: MyOrdersComponent,
+    path: 'my-orders'
+  },
   {
     path: '**',
     component: NoPageComponent

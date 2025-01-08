@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { order, product } from '../data-type';
 import { ProductService } from '../services/product.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-checkout',
@@ -10,7 +11,7 @@ import { ProductService } from '../services/product.service';
 export class CheckoutComponent implements OnInit {
 totalPrice :number| undefined;
 
-  constructor(private product: ProductService) { }
+  constructor(private product: ProductService,private router:Router) { }
 
   ngOnInit(): void {
     this.product.updateCart().subscribe((result) => {
@@ -40,6 +41,8 @@ totalPrice :number| undefined;
     this.product.orderNow(orderData).subscribe((result)=>{
       if(orderData){
         alert('order placed')
+
+        this.router.navigate(['/my-orders']);
       }
       
     })
