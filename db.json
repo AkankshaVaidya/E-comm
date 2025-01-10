@@ -116,18 +116,6 @@
       "productId": "1",
       "userId": null,
       "id": 12
-    },
-    {
-      "name": "Levies Jeans",
-      "price": "2500",
-      "color": "blue",
-      "category": "jeans",
-      "description": "Confirmable jeans for man",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
-      "quantity": 2,
-      "userId": 4,
-      "productId": "tzGMKgv",
-      "id": 13
     }
   ],
   "orders": [
@@ -156,11 +144,6 @@
       "id": 3
     },
     {
-      "email": "jungkook@test.com",
-      "address": "seol",
-      "contact": "114879652",
-      "totalPrice": 5100,
-      "userId": 4,
       "id": 4
     }
   ]
