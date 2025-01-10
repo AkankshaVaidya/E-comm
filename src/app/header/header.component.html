@@ -1,7 +1,11 @@
 <nav class="nav">
     <h1><a routerLink="/">E-comm</a></h1>
-    <div *ngIf="menuType === 'default'" class="nav-search">
-        <input type="text" #searchInput (keyup)="searchProduct($event)" placeholder="search for products" (blur)="hideSearch()"/>
+    <div *ngIf="menuType !== 'seller'" class="nav-search">
+        <input type="text" 
+        #searchInput (keyup)="searchProduct($event)" 
+        placeholder="search for products" 
+        (blur)="hideSearch()"
+        />
         <button (click)="submitSearch(searchInput.value)">search</button>
         <ul class="search-result" *ngIf="searchResult">
             <li *ngFor="let item of searchResult">
@@ -23,7 +27,8 @@
             <li><a routerLink="seller-auth">{{userName | titlecase}}</a></li>
             <li><a routerLink="my-orders">My Order</a></li>
             <li><a (click)="userLogout()">Logout</a></li>
-            <li><a routerLink="cart-page">Cart({{cartItems}})</a></li>
+
+            <li><a [routerLink]="cartItems>0 ?'cart-page':null">Cart({{cartItems}})</a></li>
         </ul>
 
         <ul *ngSwitchCase="'seller'">
