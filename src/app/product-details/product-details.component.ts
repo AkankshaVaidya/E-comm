@@ -25,7 +25,7 @@ export class ProductDetailsComponent implements OnInit {
       let cartData = localStorage.getItem('localCart');
       if (productId && cartData) {
         let items = JSON.parse(cartData);
-        items = items.filter((item: product) => item.id.toString() === productId);
+        items = items.filter((item: product) =>productId== item.id.toString());
         if (items.length) {
           this.removeCart = true;
         }
@@ -91,13 +91,11 @@ export class ProductDetailsComponent implements OnInit {
     if (!localStorage.getItem('user')) {
       this.product.removeItemFromCart(productId)
     } else {
-      console.warn("cartData" , this.cartData);
-
-      this.cartData && this.product.removeToCart(this.cartData.id)
-        .subscribe((result) => {
+      this.cartData && this.product.removeToCart(productId).subscribe((result) => {
       let user = localStorage.getItem('user');
       let userId = user && JSON.parse(user).id;
             this.product.getCartList(userId);
+            
         })
       this.removeCart = false;
     }

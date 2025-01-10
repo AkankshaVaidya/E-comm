@@ -118,28 +118,16 @@
       "id": 12
     },
     {
-      "name": "Nike Shoes",
-      "price": "3000",
-      "color": "Black",
-      "category": "Shoes",
-      "description": "Best shoes for Running",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "quantity": 1,
-      "userId": 4,
-      "productId": "PDcv0g1",
-      "id": 14
-    },
-    {
-      "name": "Noise Smart Watch",
-      "price": "2000",
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
       "color": "black",
-      "category": "Watch",
-      "description": "Noise smart watch for man and women both",
-      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "description": "Hp laptop for student and professionals",
       "quantity": 1,
       "userId": 4,
-      "productId": "7GpboAg",
-      "id": 15
+      "productId": "1",
+      "id": 13
     }
   ],
   "orders": [
