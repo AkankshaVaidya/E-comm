@@ -63,10 +63,9 @@ export class ProductService {
     let cartData = localStorage.getItem('localCart');
     if (cartData) {
       let items: product[] = JSON.parse(cartData);
-      items = items.filter((item: product) => productId!== item.id);
+      items = items.filter((item: product) => productId !== item.id);
       localStorage.setItem('localCart', JSON.stringify(items));
       this.cartData.emit(items);
-
     }
   }
 
