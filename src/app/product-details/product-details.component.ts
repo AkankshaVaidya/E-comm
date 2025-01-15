@@ -25,7 +25,7 @@ export class ProductDetailsComponent implements OnInit {
         let items = JSON.parse(cartData);
         items = items.filter((item:product)=>productId=== item.id.toString());
         if(items.length){
-          this.removeCart=true
+          this.removeCart=true 
         }else{
           this.removeCart=false
         }
